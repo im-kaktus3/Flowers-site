@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    background-color: #D0C4DB;
+    margin: 0;
+}
+
+header {
+    min-width: 1440px;
+    
+}
+
+.header {   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    padding-bottom: 22px;
+    flex-grow: 0;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    display: flex;
+    width: auto;
+    align-items: flex-start;
+    gap: 26px;
+    
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.header-menu a:hover {
+    color: #694C87;
+}
+
+main {
+    min-width: 1440px;
+    height: 621px;
+    display: flex;
+    justify-content: center;
+    background: url('фон содержания.png') no-repeat center;
+}
+
+div.text_main {
+    display: flex;
+    width: 1240px;
+    height: 543px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 53px;
+
+}
+
+#slogan h1 {
+    color: #694C87;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    padding-bottom: 22px;
+    height: 87px;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #694C87;
+    width: 523px;
+    margin: 0;
+}
+
+ p#slogan {
+    color: #694C87;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+
+
+div#text_ad {
+    display: flex;
+    width: 498px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+#text_ad div {
+    display: flex;
+    width: 498px;
+    height: 32px;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(208, 196, 219, 0.60) 0%, rgba(208, 196, 219, 0.00) 81.2%);
+    padding: 17px 11px;
+}
+
+h4 {
+    color: #604679;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#text_ad div p {
+    color: #604679;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    min-width: 1440px;
+    height: auto;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    margin-top: 95px;
+    
+}
+
+
+
+div.contact {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+}
+
+.contact h1 {
+    color: #664587;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.contact p {
+    color: #FFF; 
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+div#number {
+    align-items: flex-end;
+ }
+
+
+div#social {
+    align-items: center;
+}
+
+#number img {
+    vertical-align: middle;
+}
+
+@media (max-width: 1440px) {
+ header {
+    min-width: 1240px;
+ }
+ 
+    main {
+    min-width: 1240px;
+}  
+
+footer {
+    min-width: 1200px;
+}
+
+}
