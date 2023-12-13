@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #D0C4DB;
+    margin: 0;
+}
+
+header {
+    min-width: 1440px;
+    
+}
+
+.header {   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    padding-bottom: 22px;
+    flex-grow: 0;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    display: flex;
+    width: auto;
+    align-items: flex-start;
+    gap: 26px;
+    
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.header-menu a:hover {
+    color: #694C87;
+}
+
+main {
+    min-width: 1440px;
+    display: flex;
+    padding-bottom: 200px;
+    padding-top: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+#bouquet-photo {
+    display: flex;
+    width: 453px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    margin-top: 19px;
+}
+
+#bouquet-photo h1 {
+    color: #FFF;
+    /* заголовок/H1 */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 11.88px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#bouquet-text {
+    display: flex;
+    width: 557px;
+    height: 453px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 109px;
+    margin-top: 99px;
+    margin-left: 132px;
+}
+
+#description {
+    width: 557px;
+    height: 295px;
+}
+
+span#h4 {
+    color: #604679;
+    /* h4 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105.29%; /* 16.846px */
+    letter-spacing: 0.8px;
+}
+
+span#p {
+    color: #FFF;
+    /* текст/p3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 105.29%;
+    letter-spacing: 0.8px;
+}
+
+#description a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105.29%;
+    letter-spacing: 0.8px;
+    text-decoration-line: underline;
+}
+
+#description h4 {
+    color: #604679;
+    /* h4 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105.29%; /* 16.846px */
+    letter-spacing: 0.8px;
+    margin-top: 42px;
+}
+
+#description p {
+    color: #FFF;
+    /* текст/p3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 105.29%;
+    letter-spacing: 0.8px;
+}
+
+div#Order-2 {
+    display: flex;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    flex-shrink: 0;
+}
+
+div#order {
+    display: flex;
+    height: 21px;
+    padding: 14px 42px 14px 41px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--order, #604679); 
+}
+
+#order h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105.29%; /* 21.058px */
+    letter-spacing: 3px;
+}
+
+div#exit {
+    display: flex;
+    height: 33px;
+    width: 184px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(178, 163, 182, 0.46);
+}
+
+#exit h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105.29%; /* 14.741px */
+    letter-spacing: 2.1px;
+}
+
+#Order-2 a {
+    text-decoration: none;
+}
+
+footer {
+    min-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+div.footer {
+    display: flex;
+    width:100%;
+    height: 142px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--footer-liner, linear-gradient(180deg, rgba(121, 51, 61, 0.51) -392.61%, #D0C4DB 47.05%));
+}
+
+@media (max-width: 1440px) {
+    header {
+       min-width: 1240px;
+    }
+    
+       main {
+       min-width: 1240px;
+   }  
+   
+   footer {
+       min-width: 1200px;
+   }
+   
+   }
